@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mobile First</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="title">GWA Calculator</h1>
+        <div class="card">
+            <img src="wally.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="column-container">
+            <ul class="column-tem">
+                <li class="column-name">Subect Names (Optional)</li>
+                <li class="column-name">Number of Units</li>
+                <li class="column-name">Grades Obtained</li>
+            </ul>
+        </div>
+
+        <form class="input-row">
+            <div class="input" >
+                <div class="input-container">
+                    <input type="text" name="subject" class="fields text-field">
+                    <input type="number" min="1" max="5" class="fields unit-value num-field">
+                    <input type="number" name="grade" class="fields grade-value num-field">
+                    <button class="del-but">X</button>
+                </div>
+            </div>
+        </form>
+
+        <div class="button">
+            <div class="button-container">
+                <button class="add-but">Add Subject</button>
+                <p id="units-total">Total Number of Units: 0</p>
+        
+                <div class="reset-compute-container">
+                    <h3 id="gwa-value">GWA : 0</h3>
+                    <div class="reset-compute">
+                        <button class="reset-btn">Reset</button>
+                        <button class="compute-btn">Compute</button>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

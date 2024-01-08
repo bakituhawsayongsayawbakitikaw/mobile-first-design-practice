@@ -1,0 +1,84 @@
+
+/* variables */
+:root {
+    --main-bg-color: #f7f7f7;
+    --red:red;
+    --green: #b1e9b1;
+    --gray: #6c757d;
+    --yellow: #f7c207;
+}
+
+
+/* reset */
+li {
+    list-style-type: none;
+}
+
+body, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+/* base styles */
+body {
+    background: var(--main-bg-color);
+    overflow-x: hidden;
+}
+
+.add-but,
+.reset-btn,
+.compute-btn {
+    color: white;
+    background-color: var(--gray);
+    border: var(--gray);
+    border-radius: 3px;
+    padding: .5rem;
+}
+.add-but {
+    margin-bottom: 10px;
+}
+.compute-btn {
+    background-color: var(--yellow);
+}
+
+.fields{
+    padding: 8px;
+    margin: 4px;
+    width: 150px;
+    border-radius: 5px;
+    border: #F5F5F5;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.del-but {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--red);
+    color: white;
+}
+
+
+/* font */
+
+/* mobile styles */
+
+
+
+/* small tablet styles */
+@media screen and (min-width: 620px) {
+
+}
+
+/* large tablet & laptops styles */
+@media screen and (min-width: 960px) {
+
+}
+
+/* desktop styles */
+
+@media screen and (min-width: 1200px) {
+
+}
